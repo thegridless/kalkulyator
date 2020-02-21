@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="800.0" maxWidth="600.0" minHeight="400.0" minWidth="300.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox layoutX="10.0" layoutY="146.0" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="146.0">
+         <children>
+            <HBox>
+               <children>
+                  <Button fx:id="buttonAnswer" maxHeight="80.0" maxWidth="128.0" minHeight="40.0" minWidth="64.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="Answer" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonClear" maxHeight="80.0" maxWidth="128.0" minHeight="40.0" minWidth="64.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="Clear" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonDel" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="&lt;-" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonMultiply" maxHeight="80.0" maxWidth="128.0" minHeight="40.0" minWidth="64.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="*" />
+               </children>
+            </HBox>
+            <Region prefHeight="10.0" prefWidth="280.0" />
+            <HBox>
+               <children>
+                  <Button fx:id="button7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="7" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button8" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="8" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button9" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="9" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonDivision" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="/" />
+               </children>
+            </HBox>
+            <Region prefHeight="10.0" prefWidth="280.0" />
+            <HBox>
+               <children>
+                  <Button fx:id="button4" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="4" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button5" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="5" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button6" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="6" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonMinus" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="-" />
+               </children>
+            </HBox>
+            <Region prefHeight="10.0" prefWidth="280.0" />
+            <HBox>
+               <children>
+                  <Button fx:id="button1" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="1" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button2" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="2" />
+                  <Region layoutX="74.0" layoutY="10.0" prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="button3" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="3" />
+                  <Region layoutX="148.0" layoutY="10.0" prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonPlus" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="+" />
+               </children>
+            </HBox>
+            <Region prefHeight="10.0" prefWidth="280.0" />
+            <HBox prefHeight="40.0" prefWidth="280.0">
+               <children>
+                  <Button fx:id="button0" mnemonicParsing="false" prefHeight="40.0" prefWidth="136.0" style="-fx-background-color: #8e8e8e;" text="0" />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonZ" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="," />
+                  <Region prefHeight="40.0" prefWidth="8.0" />
+                  <Button fx:id="buttonRes" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" style="-fx-background-color: #8e8e8e;" text="=" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="inPutField" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="92.0" prefHeight="50.0" prefWidth="280.0" style="-fx-background-radius: 5; -fx-border-color: black; -fx-border-radius: 10;">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="answerField" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="42.0" prefHeight="40.0" prefWidth="280.0" style="-fx-background-radius: 5; -fx-border-color: black; -fx-border-radius: 10;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
